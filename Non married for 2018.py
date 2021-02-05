@@ -4,7 +4,7 @@
 # manipulate and read data from the Current Population Survey 
 # from a CSV file.
 import csv
-filename = "lab1_cps_maritalstatus_2018.csv"
+filename = "cps_maritalstatus_2018.csv"
 fileobject = open(filename)
 all_data = csv.reader(fileobject)
 cps_datalist = list(all_data)
